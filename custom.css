@@ -99,9 +99,8 @@ body{
 .player-name,#local-player-name{
     font-weight: bold ;
     margin : 0.5rem 0 ;
-    color : white ;  
+    color : rgba(255, 255, 255, 0.904) ;  
     font-size : 1.2rem ;
-    text-align:center ; 
 }
 
 nav{
