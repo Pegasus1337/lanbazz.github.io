@@ -1,3 +1,9 @@
+body{
+    background: #1D976C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93F9B9, #53a186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93F9B9, #53a186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 #join-form{
    
     height : 80vh !important  ;
@@ -8,12 +14,20 @@
     bottom : 10% !important;
     left : 50% !important; 
     transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.603) ;
+    border-width: 2px;
+    border-color: #1D976C;
+    border-radius: 10px; 
+    border-style: solid;
+    padding :0  1.2rem ;
 }
+
 
 #leave,#mute{
     background-color: transparent;
     border-color: transparent;
     outline: none;
+    margin : 0 0.5rem ;
 }
 
 #leave img{
