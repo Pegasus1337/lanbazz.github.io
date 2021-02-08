@@ -102,3 +102,7 @@ body{
     font-weight: bold ;
     margin : 0.5rem 0 ; 
 }
+
+.nav{
+    margin-bottom : 4rem !important;
+}
