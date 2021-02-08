@@ -51,6 +51,7 @@ $("#join-form").submit(async function (e) {
 
 $("#leave").click(function (e) {
   leave();
+  window.location.href = "https://google.com";
 })
 
 async function join() {
