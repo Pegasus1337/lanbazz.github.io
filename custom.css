@@ -130,9 +130,3 @@ nav{
 
 }
 
-#local-player,.player{
-    border-radius : 10px !important; 
-    border-color : blue !important; 
-    border-style: solid !important;
-    border-width: 5px !important;
-}
