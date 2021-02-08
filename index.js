@@ -70,7 +70,7 @@ async function join() {
   
   // play local video track
   localTracks.videoTrack.play("local-player");
-  $("#local-player-name").text(`My Camera : `);
+  $("#local-player-name").text(`My Camera  `);
 
   // publish local tracks to channel
   await client.publish(Object.values(localTracks));

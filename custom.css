@@ -11,7 +11,7 @@ body{
 }
 .button-group{
     position : absolute !important ; 
-    bottom : 10% !important;
+    bottom : 1% !important;
     left : 50% !important; 
     transform: translate(-50%,-50%);
     background-color: rgb(255, 255, 255) ;
