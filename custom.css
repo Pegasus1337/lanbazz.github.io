@@ -8,7 +8,7 @@ body{
 }
 .button-group{
     position : absolute !important ; 
-    bottom : 8% !important;
+    bottom : 4% !important;
     left : 50% !important; 
     transform: translate(-55%,-50%);
     background-color: #052a25 ; 
