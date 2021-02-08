@@ -6,7 +6,6 @@
 .button-group{
     position : absolute !important ; 
     bottom : 10% !important;
-    z-index : 100000 !important ;
     left : 50% !important; 
     transform: translate(-50%,-50%);
 }
