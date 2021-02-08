@@ -1,8 +1,5 @@
 body{
-    background: #1D976C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93F9B9, #53a186);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93F9B9, #53a186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color : #006254 ; 
 }
 #join-form{
    
@@ -14,7 +11,7 @@ body{
     bottom : 1% !important;
     left : 50% !important; 
     transform: translate(-60%,-50%);
-    background-color: rgb(255, 255, 255) ;
+    background-color: #052a25 ; 
     border-width: 1px;
     border-color: #0e4b35;
     border-radius: 10px; 
@@ -100,9 +97,10 @@ body{
 
 .player-name,#local-player-name{
     font-weight: bold ;
-    margin : 0.5rem 0 ; 
+    margin : 0.5rem 0 ;
+    color : white ;  
 }
 
-.nav{
+nav{
     margin-bottom : 4rem !important;
 }
