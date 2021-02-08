@@ -98,7 +98,7 @@ body{
     width : 40% ; 
 }
 
-#player-name,#local-player-name{
+.player-name,#local-player-name{
     font-weight: bold ;
     margin : 0.5rem 0 ; 
 }
