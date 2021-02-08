@@ -86,8 +86,13 @@ body{
 
 #remote-playerlist,.l-wrapper{
     
-    
+
     display:inline-block !important ; 
     margin-top : 2rem 0 ;
     width : 45% ;
+}
+
+
+.col {
+    width : 40% ; 
 }
