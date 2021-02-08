@@ -84,7 +84,7 @@ body{
 
 
 
-.p-wrapper,.l-wrapper{
+#remote-playerlist,.l-wrapper{
    
     display:inline-block !important ; 
     margin-top : 2rem 0 ;
