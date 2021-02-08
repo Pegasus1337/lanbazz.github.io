@@ -1,0 +1,69 @@
+/*#join-form{
+   
+    height : 80vh !important  ;
+    z-index : 99 !important ;
+}
+.button-group{
+    position : absolute !important ; 
+    bottom : 10% !important;
+    left : 50% !important; 
+    transform: translate(-50%,-50%);
+}
+
+#leave,#mute{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
+#leave img{
+    width : 3rem ; 
+    height : 3rem ; 
+    opacity : 1 !important ;
+}
+#mute img{
+    width : 3.3rem ; 
+    height : 3.3rem ; 
+    opacity : 1 !important ;
+}
+
+#doctor_image{
+    width : 60% ;
+}
+
+.blocks-container{
+    position : absolute ; 
+    width : 50% ;
+    height : 40% ;
+    top : 40% ; 
+    left : 60% ;
+    transform: translate(-50%,-50%);
+
+}
+
+.buttons-container button{
+    display:inline-block !important ;
+    margin : 1.5rem ;
+    padding : 0.7rem ;
+    border-radius: 6px;
+    border-color: lightgrey !important;
+    outline : none ;
+    
+}
+
+#join_consultation_btn{
+    background-color:  #22515f;
+    color : white ; 
+}
+
+#leave_consultation_btn{
+    background-color: rgb(173, 29, 29);
+    color : white ; 
+}
+
+.buttons-container{
+    position  : absolute ; 
+    right : 50% ; 
+    transform: translateX(10%);
+}
+*/
