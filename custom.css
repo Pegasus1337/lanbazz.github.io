@@ -8,9 +8,9 @@ body{
 }
 .button-group{
     position : absolute !important ; 
-    bottom : 1% !important;
+    bottom : 8% !important;
     left : 50% !important; 
-    transform: translate(-60%,-50%);
+    transform: translate(-55%,-50%);
     background-color: #052a25 ; 
     border-width: 1px;
     border-color: #0e4b35;
@@ -25,6 +25,7 @@ body{
     border-color: transparent;
     outline: none;
     margin : 0 0.5rem ;
+    padding : 0.3rem 0 ; 
 }
 
 
@@ -103,4 +104,28 @@ body{
 
 nav{
     margin-bottom : 4rem !important;
+}
+.navbar{
+    background-color: #093b34 !important; 
+}
+
+.navbar-brand span{
+    color : white ; 
+}
+.navbar-brand{
+    color : #129a7f !important; 
+    font-weight: bold ;
+}
+
+.copyright{
+    position :absolute ; 
+    bottom : -3% ; 
+    left : 50% ; 
+    transform: translate(-50%,-50%);
+}
+.copyright p{
+    color : white; 
+    font-size : 0.8rem ;
+    opacity : 0.65 ;
+
 }
