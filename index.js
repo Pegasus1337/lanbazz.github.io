@@ -70,7 +70,7 @@ async function join() {
   
   // play local video track
   localTracks.videoTrack.play("local-player");
-  $("#local-player-name").text(`Me`);
+  $("#local-player-name").text(`My Camera : `);
 
   // publish local tracks to channel
   await client.publish(Object.values(localTracks));
@@ -108,7 +108,7 @@ async function subscribe(user, mediaType) {
   if (mediaType === 'video') {
     const player = $(`
       <div id="player-wrapper-${uid}" class="p-wrapper">
-        <p class="player-name"> Other Participant </p>
+        <p class="player-name">  Participant Camera </p>
         <div id="player-${uid}" class="player"></div>
       </div>
     `);

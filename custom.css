@@ -30,6 +30,7 @@ body{
     margin : 0 0.5rem ;
 }
 
+
 #leave img{
     width : 3rem ; 
     height : 3rem ; 
@@ -95,4 +96,9 @@ body{
 
 .col {
     width : 40% ; 
+}
+
+#player-name,#local-player-name{
+    font-weight: bold ;
+    margin : 0.5rem 0 ; 
 }
