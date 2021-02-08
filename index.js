@@ -107,7 +107,7 @@ async function subscribe(user, mediaType) {
   console.log("subscribe success");
   if (mediaType === 'video') {
     const player = $(`
-      <div id="player-wrapper-${uid}">
+      <div id="player-wrapper-${uid}" class="p-wrapper">
         <p class="player-name"> Other Participant </p>
         <div id="player-${uid}" class="player"></div>
       </div>
