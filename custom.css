@@ -81,12 +81,12 @@ body{
     transform: translateX(10%);
 }
 
+
+
+
 .p-wrapper,.l-wrapper{
-    border-radius : 10px ; 
-    border-style : solid ; 
-    border-width : 3px ; 
-    border-color : #0e4b35 !important; 
+   
     display:inline-block !important ; 
-    margin-top : 2rem ;
+    margin-top : 2rem 0 ;
     width : 45% ;
 }
