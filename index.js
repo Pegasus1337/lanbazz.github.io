@@ -51,7 +51,7 @@ $("#join-form").submit(async function (e) {
 
 $("#leave").click(function (e) {
   leave();
-  window.location.href = "https://google.com";
+  window.location.href = "http://localhost:4200/call";
 })
 
 async function join() {
