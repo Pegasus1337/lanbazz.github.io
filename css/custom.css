@@ -425,6 +425,7 @@ svg {
 font-size : 2rem !important ;
 margin-top : 0.6rem !important ;
 font-family: 'Gilroy-Medium',sans-serif !important;
+width : 85% !important ;
 }
 
 .fullSongTitle{
@@ -435,6 +436,7 @@ font-family: 'Gilroy-Medium',sans-serif !important;
     font-size : 1.3rem !important;
     text-transform: uppercase;
     pointer-events: none !important;
+    width : 85% !important ;
 
 }
 .sharerProfile{
@@ -574,3 +576,6 @@ font-size : 0.8rem ;
     margin-left : 3rem !important ;
 }
 
+.playActive{
+    color : var(--pink) !important ; 
+}
